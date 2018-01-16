@@ -16,7 +16,7 @@
         <div class="content">
           <h2>About</h2>
           <p>
-            This is simple object-fit wrapper component for Vue.js.<br>
+            Simple object-fit wrapper component for Vue.js.<br>
           </p>
         </div>
       </div>
