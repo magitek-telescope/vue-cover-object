@@ -1,7 +1,7 @@
 {
   "name": "vue-cover-object",
   "version": "0.0.0",
-  "description": "My dandy Vue component.",
+  "description": "Simple object-fit wrapper component for Vue.js.",
   "repository": {
     "url": "potato4d/vue-cover-object",
     "type": "git"

@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/vue-cover-object.svg?style=flat)](https://npmjs.com/package/vue-cover-object) [![NPM downloads](https://img.shields.io/npm/dm/vue-cover-object.svg?style=flat)](https://npmjs.com/package/vue-cover-object) [![CircleCI](https://circleci.com/gh/potato4d/vue-cover-object/tree/master.svg?style=shield)](https://circleci.com/gh/potato4d/vue-cover-object/tree/master)
 
-My dandy Vue component.
+Simple object-fit wrapper component for Vue.js.
 
 ## Install
 
