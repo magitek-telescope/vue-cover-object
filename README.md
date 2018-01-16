@@ -10,13 +10,14 @@ Simple object-fit wrapper component for Vue.js.
 yarn add vue-cover-object
 ```
 
-CDN: [UNPKG](https://unpkg.com/vue-cover-object/) | [jsDelivr](https://cdn.jsdelivr.net/npm/vue-cover-object/) (available as `window.CoverObject`)
 
 ## Usage
 
 ```vue
 <template>
-  <cover-object></cover-object>
+  <cover-object :width="100" :height="100">
+    <img src="https://github.com/potato4d.png" alt="">
+  </cover-object>
 </template>
 
 <script>
