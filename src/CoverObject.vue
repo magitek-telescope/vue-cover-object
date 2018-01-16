@@ -1,5 +1,7 @@
 <template lang="html">
-  <div class="vue-cover-object" :style="coverStyle">
+  <div
+    class="vue-cover-object"
+    :style="coverStyle">
     <div class="vue-cover-object__inner">
       <slot />
     </div>
@@ -8,7 +10,7 @@
 
 <script>
 export default {
-  name: 'vue-cover-object',
+  name: 'CoverObject',
   props: {
     width: {
       type: [Number, String],
