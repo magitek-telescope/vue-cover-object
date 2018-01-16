@@ -7,7 +7,9 @@
     "type": "git"
   },
   "main": "dist/vue-cover-object.cjs.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "prepublishOnly": "npm test && npm run build",
     "lint": "eslint . --ext .js --ext .vue",
@@ -27,9 +29,14 @@
     "homepage": "./"
   },
   "bili": {
-    "format": ["cjs", "umd"],
+    "format": [
+      "cjs",
+      "umd"
+    ],
     "name": "vue-cover-object",
-    "plugins": ["vue"]
+    "plugins": [
+      "vue"
+    ]
   },
   "eslintConfig": {
     "extends": [
@@ -37,12 +44,15 @@
     ]
   },
   "devDependencies": {
-    "poi": "^9.3.10",
     "bili": "^1.3.3",
-    "tyu": "^1.0.0",
-    "vue-test-utils": "^1.0.0-beta.9",
-    "rollup-plugin-vue": "^2.5.2",
     "eslint": "^4.14.0",
-    "eslint-plugin-vue": "^4.0.1"
+    "eslint-plugin-vue": "^4.0.1",
+    "poi": "^9.3.10",
+    "rollup-plugin-vue": "^2.5.2",
+    "tyu": "^1.0.0",
+    "vue-test-utils": "^1.0.0-beta.9"
+  },
+  "dependencies": {
+    "bulma": "^0.6.2"
   }
 }

@@ -12,11 +12,13 @@ export default {
   props: {
     width: {
       type: [Number, String],
-      required: true
+      required: false,
+      default: '100%'
     },
     height: {
       type: [Number, String],
-      required: true
+      required: false,
+      default: '100%'
     }
   },
   computed: {
